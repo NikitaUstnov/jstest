@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 2px solid tomato;
+}
+
+#name {
+  width: 400px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+#comment {
+  width: 400px;
+  height: 40px;
+  margin: 30px;
+}
+
+button {
+  padding: 20px;
+  border-radius: 3px;
+  background-color: turquoise;
+  width: 170px;
+}
