@@ -25,15 +25,12 @@ function savedTextEl(evt) {
 
     if (savedText) {
        inpCommentRef.value = savedText
-    }
-    
+    }  
 }
 
 resBtnEl.addEventListener('click', onResBtnClick)
 
 function onResBtnClick() {
-
-
     if (confirm("не нажимай сюда больше. напиши OK, ксли понял")) {
 	
 	alert("молодец");
